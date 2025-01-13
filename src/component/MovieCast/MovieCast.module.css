@@ -1,0 +1,39 @@
+.movieCastPage {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.movieCastPage h3 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #343a40;
+  margin-bottom: 15px;
+}
+
+.movieCastPage ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.movieCastPage li {
+  font-size: 1.2rem;
+  color: #495057;
+  margin: 8px 0;
+  padding-left: 20px;
+  position: relative;
+}
+
+.movieCastPage li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #007bff;
+  font-size: 1.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
